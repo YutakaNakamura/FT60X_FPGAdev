@@ -1,0 +1,76 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+----------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Tue Dec  1 22:33:39 2020
+| Host         : DESKTOP-AO3CL7T running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file FT60XDriver_control_sets_placed.rpt
+| Design       : FT60XDriver
+| Device       : xc7z020
+----------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    10 |
+| Unused register locations in slices containing registers |    27 |
++----------------------------------------------------------+-------+
+
+
+2. Histogram
+------------
+
++--------+--------------+
+| Fanout | Control Sets |
++--------+--------------+
+|      1 |            1 |
+|      4 |            3 |
+|    16+ |            6 |
++--------+--------------+
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |             990 |          258 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              39 |           12 |
+| Yes          | No                    | No                     |              49 |           18 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              63 |           19 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++------------------+-----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+|   Clock Signal   |                                      Enable Signal                                      |                                                 Set/Reset Signal                                                 | Slice Load Count | Bel Load Count |
++------------------+-----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+|  D_CLK_IBUF_BUFG | TXE_N_IBUF                                                                              |                                                                                                                  |                1 |              1 |
+|  data_clk_BUFG   |                                                                                         | s1n14_to_hf_u0/s1n14_zero                                                                                        |                3 |              4 |
+|  data_clk_BUFG   |                                                                                         | cordic_sincos/U0/i_synth/i_synth/gen_cordic.input_stage/gen_rotation.gen_rot_phase.gen_phase_int_dly/phase_cr_a1 |                1 |              4 |
+|  D_CLK_IBUF_BUFG |                                                                                         |                                                                                                                  |                4 |              4 |
+|  data_clk_BUFG   | cordic_sincos/U0/i_synth/i_synth/gen_cordic.output_stage/gen_rotation.gen_rdy_cr/rdy_cr |                                                                                                                  |                5 |             16 |
+|  D_CLK_IBUF_BUFG |                                                                                         | ledcnt[31]_i_1_n_0                                                                                               |                8 |             31 |
+|  D_CLK_IBUF_BUFG | data_cnt[31]_i_2_n_0                                                                    | data_cnt[31]_i_1_n_0                                                                                             |                8 |             31 |
+|  D_CLK_IBUF_BUFG | input_reg[31]_i_1_n_0                                                                   |                                                                                                                  |               12 |             32 |
+|  D_CLK_IBUF_BUFG | input_reg[31]_i_2_n_0                                                                   | input_reg[31]_i_1_n_0                                                                                            |               11 |             32 |
+|  data_clk_BUFG   |                                                                                         |                                                                                                                  |              254 |            990 |
++------------------+-----------------------------------------------------------------------------------------+------------------------------------------------------------------------------------------------------------------+------------------+----------------+
+
+

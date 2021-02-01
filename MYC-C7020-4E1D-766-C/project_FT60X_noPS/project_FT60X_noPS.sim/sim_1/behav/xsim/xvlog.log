@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.srcs/sources_1/new/FT60XDriver.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module FT60XDriver
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.srcs/sources_1/new/s1n14_to_hf.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s1n14_to_hf
+INFO: [VRFC 10-2263] Analyzing Verilog file "F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.srcs/sim_1/new/TB.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module TB

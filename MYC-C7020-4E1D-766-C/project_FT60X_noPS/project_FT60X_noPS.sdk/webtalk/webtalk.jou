@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Webtalk v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# 
+# Start of session at: Tue Sep 15 01:10:35 2020
+# Process ID: 32712
+# Current directory: F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_PS_Check/project_PS_Check.sdk/webtalk
+# Command line: wbtcv.exe -mode batch -source sdk_webtalk.tcl
+# Log file: F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_PS_Check/project_PS_Check.sdk/webtalk/webtalk.log
+# Journal file: F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_PS_Check/project_PS_Check.sdk/webtalk\webtalk.jou
+#-----------------------------------------------------------
+source sdk_webtalk.tcl

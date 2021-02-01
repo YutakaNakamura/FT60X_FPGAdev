@@ -1,0 +1,229 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Oct 29 18:51:38 2020
+| Host         : DESKTOP-AO3CL7T running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_ps_FT60X_AXI_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_ps_FT60X_AXI_0_0 (xilinx.com:user:FT60X_AXI:1.0) from (Rev. 4) to (Rev. 5)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_ps_FT60X_AXI_0_0'.
+
+
+-Upgrade has removed interface 'data_clock'
+
+-Upgrade has added interface 'CLK' (xilinx.com:signal:clock:1.0)
+
+-Upgrade has added interface 'RST_N' (xilinx.com:signal:reset:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_ps_FT60X_AXI_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'bus_byte_enable'
+
+-Upgrade has removed port 'bus_data'
+
+-Upgrade has removed port 'chip_reset_N'
+
+-Upgrade has removed port 'data_clock'
+
+-Upgrade has removed port 'output_enable_N'
+
+-Upgrade has removed port 'read_enable_N'
+
+-Upgrade has removed port 'receive_full_N'
+
+-Upgrade has removed port 'transmit_empty_N'
+
+-Upgrade has removed port 'write_enable_N'
+
+-Upgrade has added port 'BE'
+
+-Upgrade has added port 'CLK'
+
+-Upgrade has added port 'DATA'
+
+-Upgrade has added port 'OE_N'
+
+-Upgrade has added port 'RD_N'
+
+-Upgrade has added port 'RST_N'
+
+-Upgrade has added port 'RXF_N'
+
+-Upgrade has added port 'TXE_N'
+
+-Upgrade has added port 'WR_N'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Oct 29 16:26:19 2020
+| Host         : DESKTOP-AO3CL7T running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_ps_FT60X_AXI_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_ps_FT60X_AXI_0_0 (xilinx.com:user:FT60X_AXI:1.0) from (Rev. 3) to (Rev. 4)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_ps_FT60X_AXI_0_0'.
+
+
+-Upgrade has removed interface 'D_CLK'
+
+-Upgrade has added interface 'data_clock' (xilinx.com:signal:clock:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_ps_FT60X_AXI_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'DATA'
+
+-Upgrade has removed port 'D_CLK'
+
+-Upgrade has added port 'bus_byte_enable'
+
+-Upgrade has added port 'bus_data'
+
+-Upgrade has added port 'chip_reset_N'
+
+-Upgrade has added port 'data_clock'
+
+-Upgrade has added port 'output_enable_N'
+
+-Upgrade has added port 'read_enable_N'
+
+-Upgrade has added port 'receive_full_N'
+
+-Upgrade has added port 'transmit_empty_N'
+
+-Upgrade has added port 'write_enable_N'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Oct 29 14:55:18 2020
+| Host         : DESKTOP-AO3CL7T running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_ps_FT60X_AXI_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_ps_FT60X_AXI_0_0 (xilinx.com:user:FT60X_AXI:1.0) from (Rev. 2) to (Rev. 3)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_ps_FT60X_AXI_0_0'.
+
+
+-Upgrade has removed interface 'data_clock'
+
+-Upgrade has added interface 'D_CLK' (xilinx.com:signal:clock:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_ps_FT60X_AXI_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'data_clock'
+
+-Upgrade has removed port 'output_data'
+
+-Upgrade has added port 'DATA'
+
+-Upgrade has added port 'D_CLK'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
+| Date         : Thu Oct 29 14:30:01 2020
+| Host         : DESKTOP-AO3CL7T running 64-bit major release  (build 9200)
+| Command      : upgrade_ip
+| Device       : xc7z020clg400-1
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_ps_FT60X_AXI_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_ps_FT60X_AXI_0_0 (xilinx.com:user:FT60X_AXI:1.0) from (Rev. 1) to (Rev. 2)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_ps_FT60X_AXI_0_0'.
+
+
+-Upgrade has added interface 'data_clock' (xilinx.com:signal:clock:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_ps_FT60X_AXI_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'data_clock'
+
+-Upgrade has added port 'output_data'
+
+

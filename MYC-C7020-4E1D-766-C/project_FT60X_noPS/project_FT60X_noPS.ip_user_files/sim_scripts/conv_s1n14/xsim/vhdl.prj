@@ -1,0 +1,4 @@
+vhdl xil_defaultlib  \
+"../../../../project_FT60X_noPS.srcs/sources_1/ip/conv_s1n14/sim/conv_s1n14.vhd" \
+
+nosort

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Nov 23 23:16:26 2020
+# Process ID: 8468
+# Current directory: F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.runs/conv_s1n14_synth_1
+# Command line: vivado.exe -log conv_s1n14.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source conv_s1n14.tcl
+# Log file: F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.runs/conv_s1n14_synth_1/conv_s1n14.vds
+# Journal file: F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.runs/conv_s1n14_synth_1\vivado.jou
+#-----------------------------------------------------------
+source conv_s1n14.tcl -notrace

@@ -1,0 +1,9 @@
+0.6
+2018.3
+Dec  7 2018
+00:33:28
+F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.sim/sim_1/behav/xsim/glbl.v,1544155481,verilog,,,,glbl,,axi_vip_v1_1_4;processing_system7_vip_v1_0_6;xilinx_vip,,,,,,
+F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.srcs/sim_1/new/TB.v,1605887621,verilog,,,,TB,,axi_vip_v1_1_4;processing_system7_vip_v1_0_6;xilinx_vip,../../../../project_FT60X_noPS.srcs/sources_1/bd/design_ps/ipshared/70cf/hdl;../../../../project_FT60X_noPS.srcs/sources_1/bd/design_ps/ipshared/ec67/hdl;E:/Xilinx/Vivado/2018.3/data/xilinx_vip/include,,,,,
+F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.srcs/sources_1/ip/conv_s1n14/sim/conv_s1n14.vhd,1606140984,vhdl,,,,conv_s1n14,,,,,,,,
+F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.srcs/sources_1/ip/cordic_0/sim/cordic_0.vhd,1605533364,vhdl,,,,cordic_0,,,,,,,,
+F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.srcs/sources_1/new/FT60XDriver.v,1606829145,verilog,,F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_FT60X_noPS/project_FT60X_noPS.srcs/sources_1/new/s1n14_to_hf.v,,FT60XDriver,,axi_vip_v1_1_4;processing_system7_vip_v1_0_6;xilinx_vip,../../../../project_FT60X_noPS.srcs/sources_1/bd/design_ps/ipshared/70cf/hdl;../../../../project_FT60X_noPS.srcs/sources_1/bd/design_ps/ipshared/ec67/hdl;E:/Xilinx/Vivado/2018.3/data/xilinx_vip/include,,,,,

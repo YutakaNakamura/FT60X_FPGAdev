@@ -1,0 +1,16 @@
+The target system is: Generic -  - arm
+The host system is: Windows - 6.2 - AMD64
+Determining if files stdatomic.h exist passed with the following output:
+Change Dir: F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_PS_Check/project_PS_Check.sdk/standalone_bsp_1/ps7_cortexa9_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp
+
+Run Build Command:"E:/Xilinx/SDK/2018.3/gnuwin/bin/make.exe" "cmTC_d07f4/fast"
+E:/Xilinx/SDK/2018.3/gnuwin/bin/make.exe -f CMakeFiles/cmTC_d07f4.dir/build.make CMakeFiles/cmTC_d07f4.dir/build
+make.exe[1]: Entering directory 'F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_PS_Check/project_PS_Check.sdk/standalone_bsp_1/ps7_cortexa9_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d07f4.dir/CheckIncludeFiles.c.obj
+E:/Xilinx/SDK/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe   -O2 -c -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra -IF:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_PS_Check/project_PS_Check.sdk/standalone_bsp_1/ps7_cortexa9_0/include -c   -o CMakeFiles/cmTC_d07f4.dir/CheckIncludeFiles.c.obj   -c F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_PS_Check/project_PS_Check.sdk/standalone_bsp_1/ps7_cortexa9_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp/CheckIncludeFiles.c
+Linking C executable cmTC_d07f4
+E:/Xilinx/SDK/2018.3/gnu/aarch32/nt/gcc-arm-none-eabi/bin/arm-none-eabi-gcc.exe  -O2 -c -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -nostartfiles -g -Wall -Wextra -IF:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_PS_Check/project_PS_Check.sdk/standalone_bsp_1/ps7_cortexa9_0/include -c    "CMakeFiles/cmTC_d07f4.dir/CheckIncludeFiles.c.obj"   -o cmTC_d07f4  
+arm-none-eabi-gcc.exe: warning: CMakeFiles/cmTC_d07f4.dir/CheckIncludeFiles.c.obj: linker input file unused because linking not done
+make.exe[1]: Leaving directory 'F:/develop/Data/Xilinx/Workspace/MYC-C7020-4E1D-766-C/project_PS_Check/project_PS_Check.sdk/standalone_bsp_1/ps7_cortexa9_0/libsrc/libmetal_v1_4/build_libmetal/CMakeFiles/CMakeTmp'
+
+
